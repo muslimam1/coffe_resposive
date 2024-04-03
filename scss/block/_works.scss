@@ -1,0 +1,102 @@
+.works__title{
+    margin-top: 120px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 133%;
+    text-align: center;
+    color: #83888f;
+    margin-bottom: 80px;
+}
+.works__num1{
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 100%;
+    text-align: center;
+    color: #fdd6ba;
+}
+.works__num{
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 100%;
+    text-align: center;
+    color: #fdd6ba;
+}
+.works__subTitle{
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 114%;
+    text-align: center;
+    color: #333d4b;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.works__text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    text-align: center;
+    color: #333d4b;
+    margin-bottom: 56px;
+}
+.works__btn{
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 139%;
+    text-align: center;
+    padding: 15px 36px 16px 36px;
+    color: #fefcf7;
+    border-radius: 6px;
+    background-color: #0e8784;
+}
+
+@media screen and (min-width:768px) {
+    .works__title{
+        text-align: start;
+        margin-bottom: 18px;
+    }
+    
+
+    .works__items{
+        display: flex;
+        gap: 10px;
+    }
+    .works__num1{
+        text-align: start;
+    }
+    .works__num{
+        text-align: start;
+    }
+    .works__subTitle{
+        text-align: start;
+        width: 223px;
+    }
+    .works__text{
+        text-align: start;
+        width: 223px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .works__items{
+        margin-left: 8%;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 95px;
+        max-width: 1045px;
+        padding-bottom: 30px;
+    }
+    .works__title{
+        margin-left: 7%;
+    }
+    .works__btn::before{
+        content: " ";
+        width: 19px;
+        height: 20px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-image: url('../img/pixer.svg');
+        background-position-x:right;
+        background-position-y:bottom;
+    }
+
+}
